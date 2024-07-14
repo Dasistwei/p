@@ -1,0 +1,38 @@
+.footer{
+  padding: 20px 0;
+  background: #916000;
+  color: white;
+}
+.footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .logo{
+  display: flex;
+  align-items: center;
+}
+.footer .logo span{
+  font-size: 14px;
+  margin-left: 20px;
+}
+.footer .links ul{
+  display: flex;
+}
+.footer .links ul li{
+  margin-right: 36px;
+  cursor: pointer;
+}
+.footer .links ul li:last-child{
+  margin-right: 0;
+}
+@media screen and (max-width: 767px) {
+  .footer .logo{    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer .links{
+    display: none;
+  }
+}
