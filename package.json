@@ -1,7 +1,7 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./src/index.html",
   "scripts": {
     "deploy": "gh-pages -d src",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,6 +11,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "sass": "^1.77.8"
+  },
+  "devDependencies": {
+    "vite": "^5.3.3"
   }
 }
